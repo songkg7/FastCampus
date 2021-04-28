@@ -1,5 +1,6 @@
 package design_pattern;
 
+import design_pattern.adapter.Electronic110V;
 import design_pattern.singleton.AClazz;
 import design_pattern.singleton.BClazz;
 import design_pattern.singleton.SocketClient;
@@ -16,4 +17,5 @@ public class SingletonTest {
         System.out.println((aClient.equals(bClient)));
 
     }
+
 }
