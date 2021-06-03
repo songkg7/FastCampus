@@ -1,2 +1,6 @@
 out
 .DS_store
+/input.txt
+/input2.txt
+/reader.txt
+/serial.txt
