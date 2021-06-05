@@ -22,6 +22,11 @@ public class CoffeeTest {
         Coffee kenyaCoffee = new WhippingCream(new Mocha(new Latte(new Kenya())));
         kenyaCoffee.brewing();
 
+        System.out.println("--------------------");
+
+        Coffee ethiopiaAmericano = new Americano(new Ethiopia());
+        ethiopiaAmericano.brewing();
+
     }
 
 }
